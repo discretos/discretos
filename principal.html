@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap 3 Fixed Layout Example</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<style type="text/css">
+    body{
+    	padding-top: 70px;
+    }
+</style>
+</head>
+<body>
+<nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+		</div>
+		
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+			<ul class="nav navbar-nav">
+		
+				<li><a href="#">Inicio</a></li>
+				<li class="active"><a href="sobreNos.html">Sobre</a></li>
+				<li ><a href="#" >Download</a></li>
+				<li class="active"><a href="#">Projectos</a></li>
+				<li ><a href="#" >Download</a></li>
+				  <form role="search" class="navbar-form navbar-left">
+					<div class="form-group">
+					<input type="text" placeholder="Search" class="form-control">
+					</div>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Login</a></li>
+				</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Discretos Websites</h1>
+		Este grupo dedica-se a coisas discretas. Simples e complexas.
+		Queremos codificar um mundo mais discreto e mais perfeito.
+	</div>
+	<div class="row">
+		<div class="col-xs-12">
+			<h2 class="btn btn-success">Destaques de projectos:</h2>
+			<h2>Tabela da verdade</h2>
+			<br></br>
+			<p>Discretos,</p>
+			<p>Foi disponibilizado o primeiro projecto que simplesmente consiste na construção de uma aplicação web para 
+			a geração de tabelas de verdade utilizadas em lógica (estruturas discretas).
+			Mais descrições sobre as características do projecto podem ser encontradas aqui.
+			Foram disponibilizadas algumas funções utilitárias para serem desenvolvidas pela equipa.</p> 
+			
+			<p>As mesmas estão descritas na pasta utilidades na nosso repositório no GitHub.
+			Já lá existe também uma função de exemplo escrita em C. Fiquem a vontade para experimentar 
+			desenvolver as outras ou testar/traduzir o código fornecido.
+			Em breve teremos coisas de verdade.</p>
+			Fiquem atentos ...
+			<p>Bom trabalho,</p>
+			<!-- AQUI VAI O LINK DO GITHUB ACERCA DO PROJECTO -->
+			<p a href="#" target="_blank" class="btn btn-success">Mais info=>></a></p>
+			
+			
+			
+		</div>
+		
+	</div>
+	<hr>
+	<div class="row">
+		<div class="col-xs-12">
+			<footer>
+				<p>&copy; Copyright 2015 todos os direitos reservados</p>
+			</footer>
+		</div>
+	</div>
+</div>
+</body>
+</html>                                		
